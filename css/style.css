@@ -19,9 +19,12 @@ body{
   margin: 0;
   font-size: 16px;
   line-height: 1.5;
-  font-family: "Arial", sans-serif;
+  font-family:"Rubik", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
   background-color: #fff;
-  color: #222;
+  color: #4A4B4C;
 }
 
 img{
@@ -29,12 +32,21 @@ img{
   height: auto;
 }
 
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+
 /* CONTAINER */
 .container{
   width: 100%;
-  max-width: 1200px;
-  padding-left: 50px;
-  padding-right: 50px;
+  max-width: 1240px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 }
