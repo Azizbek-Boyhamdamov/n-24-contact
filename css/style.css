@@ -182,7 +182,7 @@ li{
   border-bottom: 1px solid #D1D1D1;
   padding-top: 12px;
   padding-bottom: 12px;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 .sitenav-list {
@@ -215,11 +215,105 @@ li{
 }
 
 
-
 /* MAIN-CONTENT */
 .main-content{
   flex-grow: 1;
 }
+
+.contact {
+  display: flex;
+  align-items: flex-start;
+}
+
+
+/* FORM */
+
+.form {
+  width: 696px;
+  margin-right: 10px;
+}
+.type-us {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 28px;
+}
+.username, .userphone,.usermail,.usermessage  {
+  width: 340px;
+  border-radius: 10px;
+  padding: 18px 20px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.username{
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.usermail {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.usermessage {
+  width: 100%;
+  height: 180px;
+  max-height: 250px;
+  resize: vertical;
+  margin-bottom: 20px;
+}
+
+.btn-wrapper {
+  text-align: right;
+}
+
+.submit-btn{
+  padding: 18px 30px;
+  background-color: #7297EF;
+  color: #fff;
+  transition: background-color 0.4s ease;
+}
+
+.submit-btn:hover{
+  background-color: rgba(114, 151, 239.0.8);
+}
+
+.submit-btn:active{
+  background-color: rgba(114, 151, 239.0.6);
+}
+
+/* ADDRESS */
+
+address{
+  font-style: normal;
+}
+
+.contact-details {
+  padding: 0;
+  margin: 0;
+  padding: 40px 25px;
+  border-radius: 10px;
+  width: 494px;
+  margin-top: 48px;
+  background-color: #f6f6f6;
+}
+.contact-details-item:not(:last-child) {
+  border-bottom: 1px solid #D2D2D2;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.contact-details-title {
+  margin-top: 0;
+  margin-bottom: 7px;
+  font-size: 20px;
+  line-height: 23px;
+}
+.contact-details-link, .address {
+  display: block;
+  font-weight: 400;
+  color: #000;
+}
+
+
+
 
 /* BACKGROUND-IMAGE FOR RETINA SCREENS */
 @media
